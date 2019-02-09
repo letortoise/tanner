@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(132,178,177);
+    color: white;
+}
+
+#main-container {
+    max-width: 42em;
+}
+
+
+/*
+*   Header
+*/
+
+header {
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+}
+
+header > div {
+    margin-right: auto;
+}
+
+header > nav {
+    /* font-family: 'Questrial', sans-serif; */
+    font-family: 'Righteous', cursive;
+    font-size: 1.05rem;
+}
+
+#title {
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'Questrial', sans-serif;
+    font-size: 2rem;
+    float: left;
+}
+
+.nav-link {
+    margin-right: .5rem;
+    padding: 0;
+}
+
+
+/*
+*   Main
+*/
+
+#main-title {
+    font-family: 'Questrial', sans-serif;
+    font-size: 3rem;
+}
+
+#main-button {
+    background-color: white;
+    color: rgb(132,178,177);
+}
+
+
+/*
+*   Footer
+*/
+
+footer {
+    color: rgb(229, 231, 234);
+    padding-bottom: .5rem;
+}

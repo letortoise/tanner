@@ -1,0 +1,72 @@
+html, body  {
+    height: 100%;
+}
+
+
+/* left pannel */
+
+#left-panel {
+    position: fixed;
+    height:100%;
+    background-color: #F1DEDE;
+    min-width: 10%;
+    width: 40%;
+    padding: 2rem;
+}
+
+#title {
+    min-width: 50px;
+    min-height: 50px;
+    width: 100%;
+    padding-top: 50%;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2.5rem;
+    line-height: 2.2rem;
+    /* background-color: #909580; */
+    color: black;
+    text-align: left;
+
+}
+
+/* right pannel */
+
+#right-panel {
+    position: fixed;
+    top: 0;
+    left: 40%;
+    height: 100%;
+    background-color: #80727B;
+    min-width: 10%;
+    width: 60%;
+    overflow: auto;
+}
+
+#vid {
+    background-color: black;
+    width: 100%;
+    height: 57%;
+    min-height: 50px;
+
+}
+
+#description {
+    color: white;
+    width: 100%;
+    height: 43%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: Tahoma;
+    overflow: hidden;
+}
+
+.heading {
+    font-size: 2rem;
+    color: black;
+}
+
+#content {
+    height: calc(100vh - 4rem);
+    background-color: grey;
+}

@@ -60,6 +60,9 @@ header > nav {
     color: rgb(132,178,177);
 }
 
+#main-description {
+    text-align: left;
+}
 
 /*
 *   Footer
