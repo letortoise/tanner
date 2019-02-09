@@ -9,7 +9,7 @@ def project1_view(request):
     return render(request, "portfolio/project1.html")
 
 def project2_view(request):
-    return render(request, "portfolio/project3.html")
+    return render(request, "portfolio/project2.html")
 
 def project3_view(request):
     return render(request, "portfolio/project3.html")
