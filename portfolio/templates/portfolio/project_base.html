@@ -14,6 +14,7 @@
             <header>
                 <div id="title">Tanner Marsh</div>
                 <nav class="nav">
+                    <a href="{% url 'index' %}" class="nav-link">About</a>
                     <a href="{% url 'project1' %}" class="nav-link">Project 1</a>
                     <a href="{% url 'project2' %}" class="nav-link">Project 2</a>
                     <a href="{% url 'project3' %}" class="nav-link">Project 3</a>
@@ -26,10 +27,12 @@
             </main>
 
             <footer class="mt-auto">
+                {% block source %}
                 <p>
                     Check out the source
-                    <a href="#">here</a>
+                    <a href="{% block source_link %}#{% endblock %}">here</a>
                 </p>
+                {% endblock %}
             </footer>
 
         </div>

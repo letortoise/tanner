@@ -33,6 +33,10 @@ header > nav {
     font-size: 1.05rem;
 }
 
+nav > a {
+    color: white;
+}
+
 #title {
     /* font-family: 'Righteous', cursive; */
     font-family: 'Questrial', sans-serif;

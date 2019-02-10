@@ -3,7 +3,20 @@
 {% block main %}
     <div id="main-title">Project 3</div>
     <p id="main-description">
-      Project 3
+      Project 3 is an interactive menu for Pinocchio's Pizza & Subs in Cambridge, MA.
+      Users add items to their cart—selecting a size and addons/toppings if
+      available—then pay for and submit their order. Through the
+      admin console, restaurant staff is able to modify the menu, view open orders for fulfillment, and
+      provide status updates on an order.
+      <br><br>
+      On the backend, Project 3 is built using the Django web framework with a Postgres
+      database. On the front end, Project 3 uses Handlebars.js for templating and
+      the Bootstrap CSS library to create a unified aesthetic. Payments are handled
+      through the Stripe API.
     </p>
     <a href="http://project3.tannerjmarsh.com" id="main-button" class="btn btn-lg">Launch</a>
+{% endblock %}
+
+{% block source_link %}
+    https://github.com/letortoise/project3
 {% endblock %}
